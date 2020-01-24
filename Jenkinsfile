@@ -12,9 +12,9 @@ pipeline {
                 }
             }
         }
-        stage ('Deploy to Staging'){
+        stage ('Deploy on Staging'){
             steps {
-                build job: 'Deploy-to-staging'
+                build job: 'Deploy_on_staging'
             }
         }
     }
